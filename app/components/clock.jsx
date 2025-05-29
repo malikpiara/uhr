@@ -236,10 +236,10 @@ const InteractiveClock = () => {
   };
 
   return (
-    <div className='flex flex-col items-center justify-center p-4 m-auto h-screen'>
-      <div className='bg-white rounded-xl sm:shadow-2xl p-8'>
+    <div className='flex flex-col items-center justify-center p-4 m-auto sm:h-screen'>
+      <div className='bg-white rounded-xl sm:w-fit sm:shadow-2xl p-8'>
         <h1 className='text-2xl font-bold text-gray-800 text-center mb-6'>
-          Interactive Clock
+          Uhr Stellen
         </h1>
 
         <div className='relative'>
